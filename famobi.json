@@ -1,0 +1,115 @@
+{
+    "features": {
+        "highscores": 1,
+        "rewarded": 1
+    },
+    "game_i18n" : {
+        "default": {
+            "filename.png"  : "fg_i18n/en/images/filename.png"
+        }
+    },
+    "game_info": {
+        "client_version": "1.12.0", 
+        "api_version": "2.3",
+        "forced_mode": {
+            "state": {    
+                "level": {        
+                    "description": "The current level. Keep the level number between 1 and 20 (incusive)",
+                    "type": "number",
+                    "min": 1,
+                    "max": 20
+                },
+                "coins": {      
+                    "description": "The amount of coins available to player",
+                    "type": "number",
+                    "min": 0
+                },
+                "initial_bricks":  {      
+                    "description": "The amount of bricks that player gets in his backpack at the start of the level",
+                    "type": "number",
+                    "min": 0
+                }
+            },
+            "override": {
+                "hide_ui": {
+		        	"description": "What UI elements should be hidden?",
+					"type": "array",
+					"values": ["coins"]
+				},
+                "num_enemies": {
+                    "description": "How many enemies will be present on the level",
+                    "type": "number",
+                    "min": 0,
+                    "max": 5
+                },
+                "player_color": {
+                    "description": "What color should the player be",
+                    "type": "string",
+                    "values": ["blue", "green", "yellow", "red", "aqua", "pink", "orange", "marron", "purple"]
+                },
+                "player_skin": {
+                    "description": "The skin (accessory) of the players' stickman",
+                    "type": "string",
+                    "values": ["characterBasic", "characterHat", "characterChristmas", "characterPumpkin", "characterSunglasses", "characterHelmet", "characterMedmask", "characterPlaguemask", "characterHair"]
+                },
+                "brick_skin": {
+                    "description": "The skin of all bricks on the level",
+                    "type": "string",
+                    "values": ["brickBasic", "brickChocolate", "brickBone", "brickApple", "brickHotdog", "brickCone", "brickShoe", "brickDumbbell", "brickBanana"]
+                }
+            }
+        },
+        "track_stats": {
+            "brick_collected" : {
+                "description": "Someone has collected a brick",
+                "params": {
+                    "color": {
+                      "description": "The color that the brick that has just been picked up",
+                      "type": "string",
+                      "values": ["blue", "green", "yellow", "red", "aqua", "pink", "orange", "marron", "purple"]
+                    },
+                    "by_player": {
+                       "description": "Whether the brick was collected by player (true) or enemy (false)?",
+                       "type": "boolean"
+                    }
+                }
+            },
+            "stair_painted" : {
+                "description": "Someone has painted a single stair",
+                "params": {
+                    "color": {
+                      "description": "The color that the stair has been painted to",
+                      "type": "string",
+                      "values": ["blue", "green", "yellow", "red", "aqua", "pink", "orange", "marron", "purple"]
+                    },
+                    "by_player": {
+                       "description": "Whether the stair was painted by player (true) or enemy (false)?",
+                       "type": "boolean"
+                    }
+                }
+            },
+            "enemy_kicked" : {
+                "description": "Player has kicked an enemy of color",
+                "params": {
+                    "color": {
+                      "type": "string",
+                      "values": ["blue", "green", "yellow", "red", "aqua", "pink", "orange", "marron", "purple"]
+                    },
+                    "dropped_bricks": {
+                       "description": "How many bricks fell off the enemy's backpack",
+                        "type": "number"
+                    }
+                }
+            },
+            "jumper_used" : {
+                "description": "Player has jumped using a jumper platform",
+                "type": "number"
+            },
+            "elevator_used" : {
+                "description": "Player has jumped using an elevator",
+                "type": "number"
+            }
+        }
+    }
+
+}

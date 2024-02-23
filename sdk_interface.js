@@ -284,7 +284,7 @@ const SDK_INTERFACE_INIT = function() {
 		    if (d.getElementById(id)) return;
 		    js = d.createElement(s);
 		    js.id = id;
-		    js.src = '/main.min.js';
+		    js.src = './main.min.js';
 		    fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'gamedistribution-jssdk'));
 	});

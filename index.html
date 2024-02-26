@@ -1,36 +1,27 @@
 
-<!doctype html>
-<html>
-<head>
-    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no' />
-    <meta charset='utf-8'>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="manifest" href="manifest.json">
-    <style></style>
-    <title>Stair Race 3D Unblocked - ClassRoom6x</title>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Impossible Monster Truck Race  Stunt Driving Game 2021  Unblocked - ClassRoom6x</title>
     <meta name="website" content="classroom6x.gitlab.io" />
-    <!-- ---------------- API Snippet ---------------- -->
-       <script>
-        window.famobi_gameID = "stair-race-3d"; // the actual GAMEID is added to the final version by Famobi
-        window.famobi_gameJS = [
-            "playcanvas-stable.min.js",
-            "settings__.js",
-            "modules__.js",
-            "start__.js",
-            "loading__.js"
-        ];
-        (function (document, url, fgJS, firstJS) {
-            fgJS = document.createElement('script');
-            firstJS = document.getElementsByTagName('script')[0];
-            fgJS.src = url + encodeURIComponent(document.location.href);
-            firstJS.parentNode.insertBefore(fgJS, firstJS);
-        })(document, 'html5games/gameapi/v1.js?e=');         
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Build.json", {onProgress: UnityProgress});
     </script>
-
-    <!-- ---------------- API Snippet end ------------- -->
-
-
-</head>
-<body style="overflow:hidden;">
-</body>
+  </head>
+  <body style="overflow:hidden;">
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">Impossible Monster Truck Race  Stunt Driving Game 2021 </div>
+      </div>
+    </div>
+  </body>
 </html>

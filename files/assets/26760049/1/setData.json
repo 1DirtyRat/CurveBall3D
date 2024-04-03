@@ -1,0 +1,102 @@
+{
+    "level_1": {
+        "lives": 3,
+        "ballSpeed": 11,
+        "enemyReactionSpeed": 1,
+        "enemyMovementSpeed": 3,    
+        "speedIncreaseOnHitBall": 1,
+        "maxSpeedBall": 26,
+        "minCurveBall": 0.1,
+        "maxCurveBall": 0.2
+    },
+    "level_2": {
+        "lives": 3,
+        "ballSpeed": 13,
+        "enemyReactionSpeed": 2.5,
+        "enemyMovementSpeed": 3.75,
+        "speedIncreaseOnHitBall": 1.1,
+        "maxSpeedBall": 29,
+        "minCurveBall": 0.11,
+        "maxCurveBall": 0.21
+    },
+    "level_3": {
+        "lives": 3,
+        "ballSpeed": 15,
+        "enemyReactionSpeed": 3.5,
+        "enemyMovementSpeed": 4.25,
+        "speedIncreaseOnHitBall": 1.2,
+        "maxSpeedBall": 32,
+        "minCurveBall": 0.12,
+        "maxCurveBall": 0.22
+    },
+    "level_4": {
+        "lives": 3,
+        "ballSpeed": 18,
+        "enemyReactionSpeed": 5.25,
+        "enemyMovementSpeed": 4.75,
+        "speedIncreaseOnHitBall": 1.3,
+        "maxSpeedBall": 35,
+        "minCurveBall": 0.13,
+        "maxCurveBall": 0.23
+    },
+    "level_5": {
+        "lives": 3,
+        "ballSpeed": 21,
+        "enemyReactionSpeed": 8.5,
+        "enemyMovementSpeed": 6,
+        "speedIncreaseOnHitBall": 1.4,
+        "maxSpeedBall": 38,
+        "minCurveBall": 0.14,
+        "maxCurveBall": 0.24
+    },
+    "level_6": {
+        "lives": 3,
+        "ballSpeed": 25,
+        "enemyReactionSpeed": 17,
+        "enemyMovementSpeed": 11.5,
+        "speedIncreaseOnHitBall": 1.5,
+        "maxSpeedBall": 41,
+        "minCurveBall": 0.15,
+        "maxCurveBall": 0.25
+    },
+    "level_7": {
+        "lives": 3,
+        "ballSpeed": 26.5,
+        "enemyReactionSpeed": 19,
+        "enemyMovementSpeed": 15,
+        "speedIncreaseOnHitBall": 1.6,
+        "maxSpeedBall": 44,
+        "minCurveBall": 0.16,
+        "maxCurveBall": 0.26
+    },
+    "level_8": {
+        "lives": 3,
+        "ballSpeed": 28.5,
+        "enemyReactionSpeed": 23,
+        "enemyMovementSpeed": 17,
+        "speedIncreaseOnHitBall": 1.7,
+        "maxSpeedBall": 47,
+        "minCurveBall": 0.17,
+        "maxCurveBall": 0.27
+    },
+    "level_9": {
+        "lives": 3,
+        "ballSpeed": 34,
+        "enemyReactionSpeed": 30,
+        "enemyMovementSpeed": 20,
+        "speedIncreaseOnHitBall": 1.8,
+        "maxSpeedBall": 50,
+        "minCurveBall": 0.18,
+        "maxCurveBall": 0.28
+    },
+    "level_10": {
+        "lives": 3,
+        "ballSpeed": 42,
+        "enemyReactionSpeed": 40,
+        "enemyMovementSpeed": 26,
+        "speedIncreaseOnHitBall": 1.9,
+        "maxSpeedBall": 53,
+        "minCurveBall": 0.19,
+        "maxCurveBall": 0.29
+    }
+}

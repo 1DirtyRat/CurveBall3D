@@ -1,0 +1,10 @@
+{
+    "state": {
+        "level": 5
+    },
+    "override": {
+        "player_lives": 3,
+        "enemy_lives": 2,
+        "hide_ui": ["pause_button"]
+    }
+}
